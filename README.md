@@ -40,5 +40,5 @@ This is how it should look like:
 ### Usage
 
 ```powershell
-chrome-html-to-pdf --help
+chromehtmltopdfconsole.exe
 ```
