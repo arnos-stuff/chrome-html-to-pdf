@@ -22,7 +22,7 @@
             "ChromeHtmlToPdfConsole.exe",
             "chtmlpdf"
         ]
-    ]
+    ],
     "autoupdate": {
         "url": "https://github.com/Sicos1977/ChromeHtmlToPdf/releases/download/$version/ChromeHtmltoPdf_265.zip"
     },
