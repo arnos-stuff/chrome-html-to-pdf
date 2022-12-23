@@ -1,4 +1,19 @@
-# Convert HTML to PDF using Chrome
+# My Scoop Bucket
+
+This is my [Scoop](https://scoop.sh/) bucket. It contains some apps that I use and some that I don't use but I think are cool.
+To add this bucket to your scoop installation, run the following command:
+
+```powershell
+scoop bucket add arno
+```
+
+## Apps
+
+* [ChromeHtmlToPdf](https://github.com/Sicos1977/ChromeHtmlToPdf)
+* [pandoc-sidenote](https://github.com/jez/pandoc-sidenote)
+* Others to come :heart:
+
+## ChromeHtmlToPdf: Convert HTML to PDF using Chrome
 
 This is a simple script to convert HTML to PDF using Chrome. It uses [Puppeteer](https://pptr.dev/) under the hood.
 
