@@ -24,6 +24,21 @@ This is useful whenever *like me* you've
 
 **Note:** This is just a [scoop](https://scoop.sh/) package for [ChromeHtmlToPdf](https://github.com/Sicos1977/ChromeHtmlToPdf) which wasn't written by me. I just wanted to make it easier to install. A huge thanks to [Sicos1977](https://github.com/Sicos1977) and others who have contributed to this project.
 
-## Installation
+### Installation
 
-This will come soon :heart:
+```powershell
+# add bucket if not already added
+scoop bucket add arno
+# use it to install
+scoop install chrome-html-to-pdf
+```
+
+This is how it should look like:
+
+![installation](https://i.imgur.com/gtDPVPa.png)
+
+### Usage
+
+```powershell
+chrome-html-to-pdf --help
+```
