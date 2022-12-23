@@ -35,10 +35,20 @@ scoop install chrome-html-to-pdf
 
 This is how it should look like:
 
-![installation](https://i.imgur.com/gtDPVPa.png)
+![installation](https://i.imgur.com/ulHX8W2.png)
 
 ### Usage
 
+The usage is the same as the original project.
+
 ```powershell
 chromehtmltopdfconsole.exe
+```
+
+I've also added multiple aliases to make it easier to use:
+
+```powershell
+chromehtmltopdf
+chrome-html-to-pdf
+chtmlpdf
 ```
