@@ -4,7 +4,7 @@
     "license": "MIT",
     "description": "Arno's functional programming themes for pshazz",
     "url": "https://github.com/arnos-stuff/pshazz-themes/archive/refs/heads/main.zip",
-    "hash":"49dd238c4ea63bbf8c8ab8ba4cfaf81f2160a55d47a9ab11303db0f43765a44c",
+    "hash":"83b71721718a4798e20b091475e6ebb09329ba934768a047b22b40925d08207f",
     "depends": [
         "pshazz",
         "7zip"
