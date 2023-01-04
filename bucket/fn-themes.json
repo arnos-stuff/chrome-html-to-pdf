@@ -7,7 +7,7 @@
     "hash":"724570a003cf1c2642027ff8884d4e1f53a1f6ad",
     "depends": [
         "pshazz",
-        "7z"
+        "7zip"
     ],
     "installer": {
         "script" : [
