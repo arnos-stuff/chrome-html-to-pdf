@@ -4,7 +4,7 @@ This is my [Scoop](https://scoop.sh/) bucket. It contains some apps that I use a
 To add this bucket to your scoop installation, run the following command:
 
 ```powershell
-scoop bucket add arno
+scoop bucket add arno https://github.com/arnos-stuff/arnos-scoop-bucket
 ```
 
 ## Apps
