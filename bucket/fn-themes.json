@@ -6,7 +6,7 @@
     "url": "https://github.com/arnos-stuff/pshazz-themes/archive/refs/heads/main.zip",
     "extract_dir":"pshazz-themes",
     "depends": [
-        "pshazz",
+        "pshazz"
     ],
     "installer": {
         "file":"install.ps1"
