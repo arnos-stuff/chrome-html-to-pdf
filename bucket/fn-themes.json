@@ -1,8 +1,8 @@
 {
     "version": "0.1.0",
-    "homepage": "https://github.com/jez/pandoc-sidenote",
+    "homepage": "https://github.com/arnos-stuff/pshazz-themes",
     "license": "MIT",
-    "description": "Pandoc filter for adding sidenotes to a document",
+    "description": "Arno's functional programming themes for pshazz",
     "url": "https://github.com/arnos-stuff/pshazz-themes/archive/refs/heads/main.zip",
     "depends": [
         "pshazz",
