@@ -4,12 +4,16 @@
     "license": "MIT",
     "description": "Arno's functional programming themes for pshazz",
     "url": "https://github.com/arnos-stuff/pshazz-themes/archive/refs/heads/main.zip",
-    "extract_dir":"pshazz-themes-main",
-    "extract_to":"",
+    "hash":"724570a003cf1c2642027ff8884d4e1f53a1f6ad",
     "depends": [
-        "pshazz"
+        "pshazz",
+        "7z"
     ],
     "installer": {
-        "file":"install.ps1"
-    }
+        "script" : [
+            "$start_dir = pwd",
+            "7z x $fname -o $original_dir",
+            "cd $original_dir/pshazz-themes-main",
+            ".\install.ps1"
+        ]
 }
