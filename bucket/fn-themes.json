@@ -1,10 +1,10 @@
 {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "homepage": "https://github.com/arnos-stuff/pshazz-themes",
     "license": "MIT",
     "description": "Arno's functional programming themes for pshazz",
     "url": "https://github.com/arnos-stuff/pshazz-themes/archive/refs/heads/main.zip",
-    "hash":"73f3de03f888a6daba6cf3acef4d0770544f886f757712f06217292d736f43f5",
+    "hash":"52c558d7b31b0b97601c1ec8e9b2e8a3af36bd7272adce504780bcd3f1a2befd",
     "depends": [
         "pshazz",
         "7zip"
