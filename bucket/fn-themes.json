@@ -13,7 +13,7 @@
             "$start_dir = pwd",
             "7z x $fname -o $original_dir",
             "cd $original_dir",
-            ".\install.ps1",
+            "& '.\install.ps1'",
             "cd $start_dir"
         ]
     }
