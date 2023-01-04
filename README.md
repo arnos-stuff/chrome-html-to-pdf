@@ -28,7 +28,7 @@ This is useful whenever *like me* you've
 
 ```powershell
 # add bucket if not already added
-scoop bucket add arno
+scoop bucket add arno https://github.com/arnos-stuff/arnos-scoop-bucket
 # use it to install
 scoop install chrome-html-to-pdf
 ```
