@@ -1,1 +1,9 @@
-https://tinyurl.com/install-latest-pwsh
+
+
+{
+    "version":  "1.36",
+    "license":  "MIT",
+    "url":  "https://tinyurl.com/install-latest-pwsh",
+    "homepage":  "https://github.com/PowerShell/PowerShell",
+    "description":"Updates the latest version of powershell from your current powershell without admin rights"
+}
