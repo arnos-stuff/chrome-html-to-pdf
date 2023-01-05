@@ -3,7 +3,7 @@
     "license":  "MIT",
     "url":  "https://www.nirsoft.net/utils/controlmymonitor.zip",
     "homepage":  "https://www.nirsoft.net/utils/control_my_monitor.html",
-    "description":"ControlMyMonitor allows you view and modify the settings of your monitor (Also known as 'VCP Features'), e.g. Input Port (VGA , DVI , HDMI ) & more (GIU+CLI)"
+    "description":"ControlMyMonitor allows you view and modify the settings of your monitor (a.k.a 'VCP Features'), e.g. Input Port (VGA , DVI , HDMI ) & more (GIU+CLI)",
     "bin": [
         "controlmymonitor.exe"
     ]
