@@ -1,20 +1,15 @@
 {
-    "version": "0.1.1",
-    "homepage": "https://github.com/arnos-stuff/pshazz-themes",
-    "license": "MIT",
-    "description": "Arno's functional programming themes for pshazz",
-    "url": "https://github.com/arnos-stuff/pshazz-themes/archive/refs/heads/main.zip",
-    "hash":"52c558d7b31b0b97601c1ec8e9b2e8a3af36bd7272adce504780bcd3f1a2befd",
-    "depends": [
-        "pshazz",
-        "7zip"
-    ],
-    "installer": {
-        "script" : [
-            "$start_dir = pwd",
-            "7z x $fname -o $original_dir",
-            "cd $original_dir/pshazz-themes-main",
-            "& $original_dir/pshazz-themes-main/install.ps1"
-        ]
-    }
+  "version": "0.0.2",
+  "homepage": "https://github.com/arnos-stuff/pshazz-fn-thm",
+  "license": "MIT",
+  "description": "Arno's functional programming themes for pshazz",
+  "url": "https://github.com/arnos-stuff/pshazz-fn-thm/archive/refs/tags/fn-v0.0.2.zip",
+  "hash": "30D0C240276C93C4FC92FA730C7E4787F3343E4203443273BB6646092779A672",
+  "depends": [
+    "pshazz"
+  ],
+  "post_install": [
+    "scripts/move-themes.ps1",
+    "pshazz use theme frost-fn-f"
+  ]
 }
