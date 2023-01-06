@@ -14,4 +14,5 @@
     "cd $dir",
     "& .\\post-install.ps1",
     "cd $curr_dir"
+    ]
 }
