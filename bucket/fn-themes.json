@@ -10,7 +10,7 @@
     "pshazz"
   ],
   "post_install": [
-    "$dir\\post-install.ps1",
+    "$dir/post-install.ps1",
     "pshazz use frost-fn-f"
   ]
 }
