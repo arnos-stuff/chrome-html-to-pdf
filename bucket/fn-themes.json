@@ -9,8 +9,5 @@
   "depends": [
     "pshazz"
   ],
-  "post_install": [
-    "$dir/post-install.ps1",
-    "pshazz use frost-fn-f"
-  ]
+  "post_install": "post-install.ps1"
 }
