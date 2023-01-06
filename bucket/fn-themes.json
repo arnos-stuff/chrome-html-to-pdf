@@ -9,5 +9,9 @@
   "depends": [
     "pshazz"
   ],
-  "post_install": "post-install.ps1"
+  "post_install": [
+    "$curr_dir = pwd",
+    "cd $dir",
+    "& .\\post-install.ps1",
+    "cd $curr_dir"
 }
