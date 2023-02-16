@@ -1,0 +1,15 @@
+
+{
+    "version":  "2.8.1",
+    "license":  "MIT",
+    "extract_dir":  "hadoop-$version",
+    "url":  "https://github.com/steveloughran/winutils/releases/download/tag_2017-08-29-hadoop-$version-native/hadoop-$version.zip",
+    "homepage":  "https://github.com/steveloughran/winutils",
+    "bin": [
+        ["winutils.exe", "winutils"],
+        ["winutils.exe", "hadoop-utils"]
+    ],
+    "autoupdate": {
+        "url": "https://github.com/Sicos1977/ChromeHtmlToPdf/releases/download/$version/ChromeHtmltoPdf_265.zip"
+    }
+}
