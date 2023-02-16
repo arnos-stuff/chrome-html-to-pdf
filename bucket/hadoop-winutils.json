@@ -3,7 +3,7 @@
     "version":  "2.8.1",
     "license":  "MIT",
     "extract_dir":  "hadoop-$version",
-    "url":  "https://github.com/steveloughran/winutils/releases/download/tag_2017-08-29-hadoop-$version-native/hadoop-$version.zip",
+    "url":  "https://github.com/steveloughran/winutils/releases/download/tag_2017-08-29-hadoop-2.8.1-native/hadoop-2.8.1.zip",
     "homepage":  "https://github.com/steveloughran/winutils",
     "bin": [
         ["winutils.exe", "winutils"],
