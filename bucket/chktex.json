@@ -7,12 +7,15 @@
     "url": "http://git.savannah.nongnu.org/cgit/chktex.git/snapshot/chktex-version-1.7.7.tar.gz",
     "hash": "3CCE5E249698CF04C2CD1550E43396657BAB8F796562849E0503EA7E5064B336",
     "depends": [
-        "make"
+        "make",
+        "gcc",
+        "git"
     ],
     "post_install": [
       "$curr_dir = pwd",
       "cd $dir",
-      "configure",
+      "cd chktex",
+      "bash -c autogen.sh",
       "make",
       "make install",
       "cd $curr_dir"
