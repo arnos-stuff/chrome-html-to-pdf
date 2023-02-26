@@ -8,6 +8,9 @@
     "hash": "18C72D535CE62B1CD10DA05F99235C1784868C1CB51E320407CAF9B2030556A2",
     
     "post_install": [
+        "$Env:SELFAUTOLOC = \"$dir/bin\"",
+        "$Env:SELFAUTODIR = \"$dir\"",
+        "$Env:SELFAUTOPARENT = Resolve-Path \"../$dir\"",
         "$curr_dir = pwd",
         "cd $dir",
         "cmd.exe /c install.bat",
