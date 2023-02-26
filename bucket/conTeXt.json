@@ -11,9 +11,7 @@
         "$curr_dir = pwd",
         "cd $dir",
         "cmd.exe /c install.bat",
-        "cd $curr_dir",
-        "context --luatex --generate",
-        "context --luatex --make"
+        "cd $curr_dir"
     ]
 }
   
