@@ -5,7 +5,6 @@
     "description": "CONTEXT LMTX is a self contained installation of the CONTEXT macro package. It is the follow up on MKII and MKIV and uses the LUAMETATEX engine.",
     "bin": [
         "bin/mtxrun.exe",
-        "bin/mtxrun.bat",
         "tex/texmf-win64/bin/context.exe",
         "tex/texmf-win64/bin/luatex.exe"
     ],
