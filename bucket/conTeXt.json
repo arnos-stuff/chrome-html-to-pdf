@@ -11,7 +11,7 @@
     "url": "http://lmtx.pragma-ade.nl/install-lmtx/context-win64.zip",
     "hash": "18C72D535CE62B1CD10DA05F99235C1784868C1CB51E320407CAF9B2030556A2",
     
-    "install": [
+    "pre_install": [
         "$Env:SELFAUTOLOC = \"$dir/bin\"",
         "$parent = Split-Path $dir -parent",
         "$Env:SELFAUTODIR = \"$dir\"",
